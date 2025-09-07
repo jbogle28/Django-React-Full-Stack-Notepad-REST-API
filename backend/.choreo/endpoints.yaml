@@ -1,7 +1,7 @@
 version: 0.1
 
 endpoints:
-  - name:"Notepad REST API"
+  - name: "NOTEPAD REST API"
     port: 8000
     type: REST
     networkVisibility: Public
