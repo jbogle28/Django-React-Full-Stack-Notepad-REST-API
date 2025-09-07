@@ -9,3 +9,7 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
+dependencies:
+    connectionReferences:
+    - name: backend connection
+      resourceRef: service:/django-note-api/backend/v1/be2b5/PROJECT
